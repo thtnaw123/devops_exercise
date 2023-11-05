@@ -5,6 +5,9 @@ app.get("/", (req, res) => {
   res.send("Halo there! yes it works dsds");
 });
 
+app.get("/api", (req, res) => {
+  res.send("another api endpoint");
+});
 // app.listen(5000, (req, res) => {
 //   console.log("listening on port 5000...");
 // });
